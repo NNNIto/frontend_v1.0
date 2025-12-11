@@ -1,4 +1,4 @@
-import { MessageCircle, Clock, MapPin, ChefHat, ThumbsUp, ThumbsDown, X, Edit, Star, Bookmark, Heart, StarHalf, ListChecks, PenLine } from 'lucide-react';
+import { MessageCircle, Clock, MapPin, ChefHat, ThumbsUp, ThumbsDown, X, Edit, CalendarCheck, Star, Bookmark, Heart, StarHalf, ListChecks, PenLine } from 'lucide-react';
 import { Post } from '../types';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useState } from 'react';
@@ -253,7 +253,7 @@ export function PostDetailModal({ post, onClose, onEditToPlan, onRestaurantClick
                   }}
                   className="flex items-center gap-2 text-gray-600 hover:text-green-500 transition-colors ml-auto"
                 >
-                  <Edit className="w-6 h-6" />
+                  <CalendarCheck className="w-6 h-6" />
                 </button>
               )}
             </div>
